@@ -1,0 +1,16 @@
+1. git init
+- 폴더에 git 저장소를 만들어 git으로 관리할 수 있게 하는 명령어
+- 이때 Terminal 창에 디렉토리 옆에 (Master) 이라고 뜸
+
+2. git add '파일 이름'
+- Working directory(1통)에 존재하는 작업 및 수정한 파일을 Staging Area(2통)로 옮기는 명령어  
+- 해당 명령어를 사용하면 파일 상태가 untracked 및 modified에서 staged로 변경됨
+
+3. git commit -m '기록할 내용'
+- Staging Area(2통)에서 레퍼지토리로 옮기는 명령어
+- 해당 명령어를 통해 버전을 관리할 수 있음
+- 파일 상태가 staged에서 committed로 변경됨
+
+4. 상태 확인 명령어
+  (1) git status - git 저장소에 있는 (1통 및 2통) 파일들의 상태를 확인할 수 있는 명령어
+  (2) git log - 자신이 커밋했던 내용들을 조회할 수 있는 명령어
